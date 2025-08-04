@@ -1,0 +1,30 @@
+# Node modules (auto-generated)
+node_modules/
+g
+
+# Environment variables (never commit)
+.env
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Uploaded files (optional — if using S3, safe to ignore)
+public/uploads/
+public/profile_pics/
+
+# Docker artifacts (optional)
+docker-compose.override.yml
+*.pid
+
+# Testing / coverage (if applicable)
+coverage/
