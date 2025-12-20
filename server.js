@@ -17,10 +17,7 @@ app.use(express.json());
 // Your static assets (profile pics now on S3, so this may be optional)
 app.use('/profile_pics', express.static(path.join(__dirname, 'public/profile_pics')));
 
-// Serve frontend build (dist)
 app.use(express.static(path.join(__dirname, 'dist')));
-
-// Handle React/Vite routing (fallback)
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
