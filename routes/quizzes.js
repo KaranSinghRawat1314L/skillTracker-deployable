@@ -40,7 +40,7 @@ router.post('/generate', async (req, res) => {
 
     // Gemini Prompt
     const promptText = `
-Generate 5 ${difficulty} level multiple choice questions on the topic: "${skill}". 
+Generate 5 ${difficulty} level multiple choice questions on the skill topic: "${skill}". 
 Include subskills: ${subSkills}.
 
 Format the output strictly as a JSON array of objects with fields:
