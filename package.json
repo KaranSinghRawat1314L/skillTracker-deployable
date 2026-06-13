@@ -1,0 +1,12 @@
+{
+  "name": "redirect-proxy",
+  "version": "1.0.0",
+  "description": "Simple redirect server to forward old Render URL to frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
